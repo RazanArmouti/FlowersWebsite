@@ -51,10 +51,15 @@ flowersTypes = prompt("which type you want? pls write one from the following typ
   
  
 
-  count = prompt("how many folwer you want in the bouquet?","1")
+  count = prompt("how many folwer you want in the bouquet?max no is 50 flower","1")
+  while(count >"50")
+  {
+    count = prompt("how many folwer you want in the bouquet?max no is 50 flower","1")
+  }
    document.write("The totaly numbers of "+flowersTypes+ " bouquet is "+count +"<br>")
     for(var i=1; i<=count; i++)
     {
+    
      
       if(flowersTypes=="Alstroemeria")
       {
@@ -77,4 +82,7 @@ flowersTypes = prompt("which type you want? pls write one from the following typ
       document.write(i +"<img src='https://img.teleflora.com/image/upload/fl_lossy,f_auto,q_auto/flower-glossary/Chrysanthemum_mums.jpg' alt='Chrysanthemum (mum)'>" )
       }
     }
+   
+    
+    
 
