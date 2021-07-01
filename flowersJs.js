@@ -1,8 +1,10 @@
 
 var guestAnswer;
+
 var purshaseFlowers;
 var flowersTypes;
 var counter;
+
 //alert("Flowers Website")
 var guestName= prompt("Please enter your name ", "Guest")
 document.write("<h2>Welcome " + guestName +" to our website</h2>" )
@@ -19,6 +21,7 @@ else
 {
 var color=prompt("Oh, we hope you'll change your mind after visiting our site. Please enter your favorite color ", "yellow")
 document.body.style.background = color;
+
 }
 // loop lesson
 
@@ -75,5 +78,3 @@ flowersTypes = prompt("which type you want? pls write one from the following typ
       }
     }
 
-
-    
