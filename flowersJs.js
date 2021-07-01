@@ -35,7 +35,7 @@ purshaseFlowers= prompt("Do you want to purchase bouquet of flowers? yes/no ")
 
 flowersTypes = prompt("which type you want? pls write one from the following types : Alstroemeria | Amaryllis | Calla | Carnation | Chrysanthemum ")
 
-if (flowersTypes !="Alstroemeria" && 
+while (flowersTypes !="Alstroemeria" && 
     flowersTypes !="Amaryllis" &&
     flowersTypes !="Calla" &&
     flowersTypes !="Carnation" &&
@@ -44,11 +44,7 @@ if (flowersTypes !="Alstroemeria" &&
 flowersTypes = prompt("which type you want? pls write one from the following types : Alstroemeria | Amaryllis | Calla | Carnation | Chrysanthemum ")
     
   }
-  else if (flowersTypes==null)
-  {
-    flowersTypes = prompt("which type you want? pls write one from the following types : Alstroemeria | Amaryllis | Calla | Carnation | Chrysanthemum ")
-  }
-  
+ 
  
 
   count = prompt("how many folwer you want in the bouquet?max no is 50 flower","1")
@@ -82,6 +78,7 @@ flowersTypes = prompt("which type you want? pls write one from the following typ
       document.write(i +"<img src='https://img.teleflora.com/image/upload/fl_lossy,f_auto,q_auto/flower-glossary/Chrysanthemum_mums.jpg' alt='Chrysanthemum (mum)'>" )
       }
     }
+    
    
     
     
