@@ -1,0 +1,23 @@
+#logo {
+  width:30px;
+  height:30px ;
+  float: left;
+}
+.upperlist {
+  display: inline-block;
+
+}
+h1{
+  color:maroon;
+  font-style:italic;
+}
+
+a{
+  text-decoration: none;
+  color: maroon;
+}
+
+ol{
+  list-style-type: upper-roman;
+    list-style-position: outside;
+}
