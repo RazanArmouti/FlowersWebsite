@@ -1,7 +1,7 @@
 #logo {
   width:30px;
   height:30px ;
-  float: left;
+  float:left;
 }
 .upperlist {
   display: inline-block;
@@ -14,10 +14,21 @@ h1{
 
 a{
   text-decoration: none;
-  color: maroon;
+  color: maroon);
 }
 
 ol{
   list-style-type: upper-roman;
     list-style-position: outside;
+}
+
+.Starsclass{
+
+   margin:20px;
+  
+}
+img{
+    border-style: groove;
+  border-color: yellow;
+  margin:10px;
 }
